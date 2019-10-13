@@ -1,6 +1,3 @@
-# instagram-user [![Build Status](https://travis-ci.org/kevva/instagram-user.svg?branch=master)](https://travis-ci.org/kevva/instagram-user)
-
-> Get Instagram user info
 
 
 ## Install
@@ -13,7 +10,7 @@ $ npm install instagram-user
 ## Usage
 
 ```js
-const instagramUser = require('instagram-user');
+const instagramUser = require('instagram-api-wrapper');
 
 (async () => {
 	console.log(await instagramUser('unicorns'));
